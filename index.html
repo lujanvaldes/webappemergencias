@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App Emergencias</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            line-height: 1.5;
+            color: antiquewhite;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: #571414;
+            padding: 1rem;
+            color: antiquewhite;
+            text-align: center;
+        }
+
+        .header__title {
+            font-size: 1.8rem;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+
+        .catastrofes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .catastrofes-card {
+            background-color: #555;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .catastrofes-card__img-container {
+            /*width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 8px;*/
+            position: relative;
+        }
+
+        .catastrofes-card__img {
+            display: block;
+            width: 30%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .catastrofes-card__titulo {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+
+        .catastrofes-card__link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            color: darkred;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .catastrofes-card__link:hover {
+            text-decoration: underline;
+            color: antiquewhite;
+        }
+
+        .footer {
+            background-color: #a08a8a;
+            padding: 1rem;
+            text-align: center;
+            align-content: center;
+            font-size: 1rem;
+            font-weight: bold;
+            position: sticky;
+            bottom: 0;
+            text-align: center;
+            color: black;
+            margin-top: 1rem;
+            height: 100px;
+        }
+
+        .footer__text {
+            font-size: 0.8rem;
+        }
+
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin: 20px;
+                justify-content: center;
+            }
+
+            .catastrofes {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .catastrofes-card {
+                width: 33%;
+            }
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Catástrofes y Emergencias</h1>
+    </header>
+
+    <main class="main">
+        <section class="catastrofes">
+            <article class="catastrofe-card">
+                <div class="catastrofe-card___img-container">
+                    <img src="/img/incendios Amazonas.jpg" alt="" class="catastrofe-card__img">
+                </div>
+                <h2 class="catastrofe-card__titulo">Incendios en el Amazonas</h2>
+                <a href="#" class="catastrofe-card__link">Ver más</a>
+            </article>
+
+            <article class="catastrofe-card">
+                <div class="catastrofe-card___img-container">
+                    <img src="/img/terremoto en Marruecos.webp" alt="" class="catastrofe-card__img">
+                </div>
+                <h2 class="catastrofe-card__titulo">Terremoto en Marruecos</h2>
+                <a href="#" class="catastrofe-card__link">Ver más</a>
+            </article>
+
+            <article class="catastrofe-card">
+                <div class="catastrofe-card___img-container">
+                    <img src="/img/DANA en Valencia.jpg" alt="" class="catastrofe-card__img">
+                </div>
+                <h2 class="catastrofe-card__titulo">DANA en Valencia</h2>
+                <a href="#" class="catastrofe-card__link">Ver más</a>
+        </section>
+    </main>
+<footer class="footer">
+    <p class="footer__text">2024 Catástrofes y Emergencias. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

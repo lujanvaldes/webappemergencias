@@ -2,7 +2,7 @@
 
 Crear una  con una landing Page (index.html) para listar y seleccionar una emergencia/catastrofe específica, y una página detallada de la emergencia seleccionada (por ejemplo, incendios-amazonas-2022.html, terremoto-marruecos-2024.html, dana-valencia-2024.html), usando los conceptos vistos hasta ahora.
 
-Requisitos Generales
+`Requisitos Generales`
 1. Responsive Design: La página debe ser mobile-first, pero también debe adaptarse a dispositivos más grandes (computadoras de escritorio) utilizando media queries
 2. Metodología BEM: Usar la metodología BEM para nombrar clases.
 3. Etiquetas Semátnicas: Utilizar etiquetas HTML semánticas para estructurar el contenido.
@@ -10,9 +10,9 @@ Requisitos Generales
 5. Links: Incluir enlaces a otras páginas dentro de la web, y enlaces externos (que se abran en una nueva pestaña).
 6. Iframes: Insertar un mapa de Google Maps en la página de la catástrofe usando un iframe generado en la siguiente Web o con Google Maps: https://www.maps.ie/create-google-map/
 
-Parte 1: Landing Page (index.html)
+## Parte 1: Landing Page (index.html)
 
-Instrucciones
+`Instrucciones`
 
 1. Crear una landingPage donde los usuarios puedan seleccionar la catástrofe que desean consultar.
 2. Tarjeta de Catastrofe: Cada tarjeta debe contener:
@@ -22,9 +22,9 @@ Un título breve con el nombre de la catástrofe.
 Un enlace que lleve a la página de detalles de la catástrofe (por ejemplo, a dana-valencia-2024.html).
 3. Diseño Responsive: La página debe estar optimizada para dispositivos móviles y ajustarse bien a pantallas de escritorio mediante el uso de media queries.
 
-Parte 2: Página de Catástrofe (Ejemplo: dana-valencia-2024.html)
+## Parte 2: Página de Catástrofe (Ejemplo: dana-valencia-2024.html)
 
-Secciones Obligatorias
+`Secciones Obligatorias`
 La página de detalles de la catástrofe debe incluir las siguientes secciones:
 
 1. Encabezado:
@@ -58,7 +58,7 @@ Actualización en Tiempo Real  (Emergencia activa): Un espacio para incluir enla
 Preguntas Frecuentes (FAQ): Una lista de preguntas y respuestas sobre cómo la gente puede ayudar o sobre los próximos pasos en la recuperación.
 
 
-Instrucciones de Diseño y Estilo:
+`Instrucciones de Diseño y Estilo:`
 
 Responsive:  
 Comienza el diseño pensando en dispositivos móviles y luego usa media queries para hacer ajustes en pantallas más grandes.
